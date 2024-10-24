@@ -10,7 +10,12 @@ pipeline {
     }
      stage('Deploy') {
       steps {
-        echo 'succcessfully deployed'
+        echo 'deployemnt'
+      }
+     }
+    stage('success') {
+      steps {
+        echo 'succcess'
       }
      }
   }
